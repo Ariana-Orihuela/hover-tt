@@ -1,0 +1,35 @@
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.686);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(black, white);
+}
+.contenedor img{
+    display:flex;
+    width: 95%;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 50%;
+    align-items: center;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+.contenido{
+    text-align: center;
+    position: absolute;
+    
+    transform: scale(1.5);
+    opacity:0;
+    cursor: pointer;
+}
+:hover .contenido{
+    transform: scale(1);
+    opacity: 1;
+    
+}
+:hover .contenido img{
+    background: linear-gradient(rgb(228, 228, 0), white);
+  
+}
